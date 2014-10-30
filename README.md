@@ -25,6 +25,7 @@ wget http://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/ToS-4k-1920.mov
 
 2. Transcode the video to mp4 format with supported video encoder in multiple bitrates and resolution.
     1. Choose the resolution and bitrates to encode.
+
 | Profile Level  | Target Bitrate  | Width  | Height  |
 |---|---|---|---|
 | 1  | 450kbps  | 640  | 360  |
