@@ -1,0 +1,9 @@
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 6M -profile:v high -preset slow -framerate 24 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_6000.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 4.7M -profile:v high -preset slow -framerate 24 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_4700.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 3.4M -profile:v high -preset slow -framerate 24 -s 1280x720 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_3400.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 2250K -profile:v high -preset slow -framerate 24 -s 1280x720 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_2250.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 1.5M -profile:v high -preset slow -framerate 24 -s 1280x720 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_1500.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 1M -profile:v high -preset slow -framerate 24 -s 854x480 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_1000.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 700K -profile:v high -preset slow -framerate 24 -s 854x480 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_700.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 450K -profile:v high -preset slow -framerate 24 -s 640x360 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_450.mp4
+./ffmpeg -i ~/chenw/videos/orgVideoFiles/BBB_1080.avi -codec:v libx264 -b:v 200K -profile:v high -preset slow -framerate 24 -s 320x180 -force_key_frames 'expr:gte(t,n_forced*5)' -an ~/chenw/videos/BBB-NF/BBB_200.mp4

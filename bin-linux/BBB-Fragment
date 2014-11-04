@@ -1,0 +1,9 @@
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_6000.mp4 ~/chenw/videos/BBB/BBB_6000.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_4700.mp4 ~/chenw/videos/BBB/BBB_4700.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_3400.mp4 ~/chenw/videos/BBB/BBB_3400.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_2250.mp4 ~/chenw/videos/BBB/BBB_2250.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_1500.mp4 ~/chenw/videos/BBB/BBB_1500.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_1000.mp4 ~/chenw/videos/BBB/BBB_1000.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_700.mp4 ~/chenw/videos/BBB/BBB_700.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_450.mp4 ~/chenw/videos/BBB/BBB_450.mp4
+./mp4fragment --fragment-duration 5000 ~/chenw/videos/BBB-No-Fragment/BBB_200.mp4 ~/chenw/videos/BBB/BBB_200.mp4
